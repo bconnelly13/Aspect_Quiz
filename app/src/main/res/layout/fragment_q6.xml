@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Q6Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/titleQuestion"
+
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewQuestion6"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:text="What are your thoughts on cannibalism?"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/buttonSpringtail6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I eat corpses, but I'm not interested in killing people to eat them."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewQuestion6" />
+
+        <Button
+            android:id="@+id/buttonShrimp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'll eat sick people, maybe the occasional baby whether it's mine or not."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSpringtail6" />
+        <Button
+            android:id="@+id/buttonSnailOrPleco6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yeah, I eat people when I'm hungry"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonShrimp6" />
+        <Button
+            android:id="@+id/buttonLoach6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call me Donner because it's a party when I'm around"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSnailOrPleco6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

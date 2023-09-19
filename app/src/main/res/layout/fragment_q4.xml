@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Q4Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/titleQuestion"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewQuestion4"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:text="How well do you get along with other people?"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/buttonSpringtail4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I do well with large groups and fit in very nicely in a lot of places."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewQuestion4" />
+
+        <Button
+            android:id="@+id/buttonShrimp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm shy when I'm not around my friends, but I get along pretty well with other people."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSpringtail4" />
+        <Button
+            android:id="@+id/buttonSnail4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I might overwhelm some people unintentionally, so it's better if I'm alone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonShrimp4" />
+        <Button
+            android:id="@+id/buttonLoach4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I like to stick with my small group of friends."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSnail4" />
+        <Button
+            android:id="@+id/buttonPleco4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I don't like when other people are in my space. I prefer to be alone."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonLoach4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

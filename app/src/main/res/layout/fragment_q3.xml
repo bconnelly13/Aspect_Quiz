@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Q3Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/titleQuestion"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewQuestion3"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:text="What do you look like?"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/buttonSpringtail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm an arthropod but I look like a little bug"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewQuestion3" />
+
+        <Button
+            android:id="@+id/buttonShrimp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm a crustacean and I'm red and white like peppermint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSpringtail3" />
+        <Button
+            android:id="@+id/buttonSnail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I have a shell that I hide inside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonShrimp3" />
+        <Button
+            android:id="@+id/buttonLoach3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm a fish that looks a little bit like an eel. I have very fetching spots"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSnail3" />
+        <Button
+            android:id="@+id/buttonPleco3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I have a body covered in bony plates and a ventral suckermouth and males of my species have big bristles. "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonLoach3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

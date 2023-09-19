@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Q2Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/titleQuestion"
+
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewQuestion2"
+            style="@style/Widget.personalityQuiz.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:text="What do you like to eat"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/buttonSpringtail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basically anything, but I like decomposing leaves and roots. I enjoy the mold, mildew, bacteria and general biofilm on them."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewQuestion2" />
+
+        <Button
+            android:id="@+id/buttonShrimp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Literally anything, but I like deceased animals, algae, and biofilm full of microorganisms."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSpringtail2" />
+        <Button
+            android:id="@+id/buttonSnail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Literally anything, but I like deceased animals, algae, and biofilm full of microorganisms."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonShrimp2" />
+        <Button
+            android:id="@+id/buttonLoach2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Literally anything, but I like to eat other animals like snails."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSnail2" />
+        <Button
+            android:id="@+id/buttonPleco2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Literally anything, but I like algae and plant matter a lot"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonLoach2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
